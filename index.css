@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000000;
+}
+
+
+.cont1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imagem {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 1rem;
+    transition: transform .2s;
+}
+
+.imagem:hover {
+    transform: scale(1.01);
+}
+
+img {
+    border: 5px dashed #7639f2;
+    box-shadow: 10px 10px 30px rgba(64, 80, 111, 0.443);
+}
+
+audio {
+    border-radius: 2rem;
+    border: 5px dotted #7639f2;
+}
+
+.cont2 {
+    font-size: 35px;
+    font-family: 'Chivo Mono', monospace;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5;
+    color: #2e1461;
+    text-align: justify;
+}
+
+.cont2 .quote {
+    font-size: 17px;
+    font-family: 'Chivo Mono', monospace;
+    color: #2e1461;
+}
+
+und {
+    transition: transform .2s;
+}
+
+und:hover span{    
+    color: #7639f2;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.titulo {
+    background: -webkit-linear-gradient(rgba(31,31,31,1), #d1ad0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    animation: fadeIn 5s ease-in-out;
+}
+
+.box { 
+    background: rgb(8, 8, 8);
+    border-radius: 0.5rem;
+    border: 5px solid #d1ad0b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 59px;
+    margin-bottom: 59px;
+    animation: fadeIn 5s ease-in-out;
+}
+
+u {
+    transition: transform .2s;
+}
+
+u:hover {
+    background: -webkit-linear-gradient(rgb(219, 216, 20), #d1ad0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
