@@ -47,8 +47,7 @@ audio {
 }
 
 .cont2 {
-    font-size: 35px;
-    font-family: 'Chivo Mono', monospace;
+    font-size: 1.8vw;
     margin-top: 2%;
     margin-bottom: 3%;
     margin-left: 10%;
@@ -123,7 +122,7 @@ und:hover span{
 }
 
 u {
-    background: -webkit-linear-gradient(rgba(31,31,31,1), #d1ad0b);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #d1ad0b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
