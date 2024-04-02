@@ -46,7 +46,7 @@ audio {
     border: 5px dotted #7639f2;
 }
 
-.cont2 {
+.cont2{
     font-size: 1.8vw;
     margin-top: 2%;
     margin-bottom: 3%;
@@ -90,11 +90,17 @@ und:hover span{
     }
 }
 
-    @keyframes glow {
+@keyframes glow {
         0% { box-shadow: #d1ad0b 0px 0px 0px; }
         50% { box-shadow: #d1ad0b 1px 1px 15px; }
         100% { box-shadow: #d1ad0b 0px 0px 0px; }
-    }
+}
+
+@keyframes sumir {
+    0% { opacity: 100%;}
+    75% { opacity: 100%;}
+    100% { opacity: 0%;}
+}
 
 .titulo {
     background: -webkit-linear-gradient(rgb(29, 29, 28), #d1ad0b);
@@ -105,10 +111,12 @@ und:hover span{
     animation: fadeIn 5s ease-in-out;
 }
 
+
 .box { 
     background: rgb(8, 8, 8);
     border-radius: 0.5rem;
     border: 5px solid #d1ad0b;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,6 +133,7 @@ u {
     background: -webkit-linear-gradient(rgb(29, 29, 28), #d1ad0b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    pointer-events: visible;
 }
 
 u:hover {
@@ -133,5 +142,4 @@ u:hover {
     -webkit-text-fill-color: transparent;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
-    
 }
