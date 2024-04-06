@@ -37,8 +37,8 @@ body {
 }
 
 img {
-    border: 5px dashed #7639f2;
-    box-shadow: 10px 10px 30px rgba(64, 80, 111, 0.443);
+    width: 400px;
+    height: 400px;
 }
 
 audio {
@@ -48,8 +48,8 @@ audio {
 
 .cont2 {
     font-size: 1.8vw;
-    margin-top: 25.4%;
-    margin-bottom: 25.4%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
     line-height: 1.5;
