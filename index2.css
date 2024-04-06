@@ -93,9 +93,9 @@ und:hover span{
 }
 
 @keyframes glow {
-        0% { box-shadow: #8a0808 0px 0px 0px; }
-        50% { box-shadow: #8a0808 1px 1px 15px; }
-        100% { box-shadow: #8a0808 0px 0px 0px; }
+        0% { box-shadow: #807676 0px 0px 0px; }
+        50% { box-shadow: #807676 1px 1px 15px; }
+        100% { box-shadow: #807676 0px 0px 0px; }
 }
 
 @keyframes sumir {
@@ -105,7 +105,7 @@ und:hover span{
 }
 
 .titulo {
-    background: -webkit-linear-gradient(rgb(29, 29, 28), #8a0808);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #807676);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -120,7 +120,7 @@ und:hover span{
 .box { 
     background: rgb(8, 8, 8);
     border-radius: 0.5rem;
-    border: 5px solid #8a0808;
+    border: 5px solid #807676;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -135,14 +135,14 @@ und:hover span{
 }
 
 u {
-    background: -webkit-linear-gradient(rgb(29, 29, 28), #8a0808);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #807676);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     pointer-events: visible;
 }
 
 u:hover {
-    background: -webkit-linear-gradient(rgb(29, 29, 28), #424242);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #8a0808);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Georgia, 'Times New Roman', Times, serif;
