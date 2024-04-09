@@ -9,6 +9,8 @@ body {
     background-color: #000000;
 }
 
+@font-face { font-family: Sigilos; src: url('SigilosDoOutroLado-Regular.ttf'); } 
+
 .preload {
     animation-duration: fadeIn 0s !important;
     -webkit-animation-duration: 0s !important;
