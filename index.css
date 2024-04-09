@@ -36,7 +36,6 @@ body {
 
 @keyframes sumir {
     0% { opacity: 100%;}
-    75% { opacity: 100%;}
     100% { opacity: 0%;}
 }
 
@@ -58,8 +57,14 @@ body {
 }
 
 audio {
-    border-radius: 2rem;
-    border: 5px dotted #7639f2;
+}
+
+button {
+    border-radius: 10rem;
+    width: 20px;
+    height: 20px;
+
+    background-color: #d1ad0b;
 }
 
 .cont2{
