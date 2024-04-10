@@ -15,7 +15,7 @@
     <div id="animate" class="box">
         <a class="titulo">:)</a>
         <audio id="limbo" src="./sons/limbo.mp3" preload="auto"></audio>
-        <button onclick="document.getElementById('limbo').play(); closepage(); animation()">...</button>
+        <button onclick="audio(); closepage(); animation()">...</button>
     </div>  
     <button id="error" class="botaodireita"><a href="index2.html">pinto</a></button>
     <script>
@@ -24,6 +24,18 @@
         return false;
         }
     });
+
+    function audio(){
+        var audio= document.getElementById("limbo");
+        audio.currentTime=0;
+	    audio.play();
+	    console.log(audio.currentTime);
+	    setInterval(function(){
+		if(audio.currentTime>41){
+			audio.pause();
+				}
+			},1000);
+		}
 
     function closepage(){
         setTimeout(() => {
