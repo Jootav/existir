@@ -117,16 +117,20 @@ und:hover span{
     background: rgb(8, 8, 8);
     border-radius: 0.5rem;
     border: 5px solid #d1ad0b;
+    height:850px;
+
     position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 59px;
     margin-bottom: 59px;
+
     animation: fadeIn 2s ease-in-out, in-out 10s infinite, glow 10s infinite;
 }
 

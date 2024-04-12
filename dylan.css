@@ -39,8 +39,8 @@ body {
 }
 
 img {
-    border: 5px dashed #7639f2;
-    box-shadow: 10px 10px 30px rgba(64, 80, 111, 0.443);
+    width: 400px;
+    height: 400px;
 }
 
 audio {
@@ -48,15 +48,10 @@ audio {
     border: 5px dotted #7639f2;
 }
 
-.cont2{
-    background-image: url("./opdi site/l/2.png");
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-position: center;
-
+.cont2 {
     font-size: 1.8vw;
-    margin-top: 2%;
-    margin-bottom: 3%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
     line-height: 1.5;
@@ -97,39 +92,30 @@ und:hover span{
     }
 }
 
-@keyframes glow {
-        0% { box-shadow: #807676 0px 0px 0px; }
-        50% { box-shadow: #807676 1px 1px 15px; }
-        100% { box-shadow: #807676 0px 0px 0px; }
-}
-
-@keyframes sumir {
-    0% { opacity: 100%;}
-    75% { opacity: 100%;}
-    100% { opacity: 0%;}
-}
+    @keyframes glow {
+        0% { box-shadow: #ebe2e2 0px 0px 0px; }
+        50% { box-shadow: #ebe2e2 1px 1px 15px; }
+        100% { box-shadow: #ebe2e2 0px 0px 0px; }
+    }
 
 .titulo {
-    background: -webkit-linear-gradient(rgb(29, 29, 28), #807676);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #ebe2e2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
     animation: fadeIn 5s ease-in-out;
 }
-
+    
 #sigilo {
     font-family: Sigilos;
     font-size: 1.8vw;
-}
+}    
 
 .box { 
     background: rgb(8, 8, 8);
     border-radius: 0.5rem;
-    border: 5px solid #807676;
-    height:850px;
-
-    position: fixed;
+    border: 5px solid #ebe2e2;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,35 +129,16 @@ und:hover span{
 }
 
 u {
-    background: -webkit-linear-gradient(rgb(29, 29, 28), #807676);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #ebe2e2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    pointer-events: visible;
 }
 
 u:hover {
-    background: -webkit-linear-gradient(rgb(29, 29, 28), #8a0808);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #7639f2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
-}
-
-.botaodireita{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 98%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    opacity: 0%;
-}
-
-.botaoesquerda{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    opacity: 0%;
+    
 }

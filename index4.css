@@ -49,7 +49,7 @@ audio {
 }
 
 .cont2{
-    background-image: url("./opdi site/l/2.png");
+    background-image: url("./opdi site/l/3.png");
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
@@ -98,19 +98,19 @@ und:hover span{
 }
 
 @keyframes glow {
-        0% { box-shadow: #807676 0px 0px 0px; }
-        50% { box-shadow: #807676 1px 1px 15px; }
-        100% { box-shadow: #807676 0px 0px 0px; }
+        0% { box-shadow: #ebe2e2 0px 0px 0px; }
+        50% { box-shadow: #ebe2e2 1px 1px 15px; }
+        100% { box-shadow: #ebe2e2 0px 0px 0px; }
 }
 
-@keyframes sumir {
-    0% { opacity: 100%;}
-    75% { opacity: 100%;}
-    100% { opacity: 0%;}
+@keyframes sigilo {
+    0% { font-family: Georgia, 'Times New Roman', Times, serif;}
+    50% { font-family: Sigilos;}
+    100% { font-family: Georgia, 'Times New Roman', Times, serif;}
 }
 
 .titulo {
-    background: -webkit-linear-gradient(rgb(29, 29, 28), #807676);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #ebe2e2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -126,9 +126,9 @@ und:hover span{
 .box { 
     background: rgb(8, 8, 8);
     border-radius: 0.5rem;
-    border: 5px solid #807676;
-    height:850px;
-
+    border: 5px solid #ebe2e2;
+    height: 850px;
+    
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -143,14 +143,14 @@ und:hover span{
 }
 
 u {
-    background: -webkit-linear-gradient(rgb(29, 29, 28), #807676);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #ebe2e2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     pointer-events: visible;
 }
 
 u:hover {
-    background: -webkit-linear-gradient(rgb(29, 29, 28), #8a0808);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #7639f2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Georgia, 'Times New Roman', Times, serif;

@@ -127,6 +127,8 @@ und:hover span{
     background: rgb(8, 8, 8);
     border-radius: 0.5rem;
     border: 5px solid #9e3c3c;
+    height:850px;
+
     position: fixed;
     display: flex;
     flex-direction: column;
