@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jota</title>
+    <link rel="stylesheet" href="limbo.css">
+    <script src="3.js"></script>
+</head>
+<body oncontextmenu="return false;" onkeydown="return false;">
+    <div id="animate" class="box">
+        <a class="titulo">:)</a>
+        <audio id="limbo" src="./sons/limbo.mp3" preload="auto"></audio>
+        <button onclick="audio(); closepage(); animation()">...</button>
+    </div>  
+    <button id="error" class="botaodireita"><a href="index2.html">pinto</a></button>
+    <script>
+    document.addEventListener("keydown", function(event) {
+        if (event.which == 123) {
+        return false;
+        }
+    });
+
+    function audio(){
+        var audio= document.getElementById("limbo");
+        audio.currentTime=0;
+	    audio.play();
+	    console.log(audio.currentTime);
+	    setInterval(function(){
+		if(audio.currentTime>41){
+			audio.pause();
+				}
+			},1000);
+		}
+
+    function closepage(){
+        setTimeout(() => {
+            window.close()
+        }, 41000);
+    }
+    
+    function animation() {
+    document.getElementById('animate').style.animation = "sumir 41s forwards";
+    }
+
+    </script>
+
+    <!--Você é ousado...-->
+
+</body>
+</html>
