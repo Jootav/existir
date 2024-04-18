@@ -41,8 +41,9 @@ body {
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    max-width: 540px;
+    max-height: 540px;
+    image-resolution: from-image;
 }
 
 audio {

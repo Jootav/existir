@@ -68,10 +68,11 @@ button {
 }
 
 .cont2{
-    background-image: url("./opdi site/l/1.png");
+    background-image: url("../opdi/l/1.png");
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
+    
 
     font-size: 1.8vw;
     margin-top: 2%;

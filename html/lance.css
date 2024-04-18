@@ -7,6 +7,8 @@
 
 body {
     background-color: #000000;
+    background-image: url(../opdi/cam.jpg);
+    background-size: cover;
 }
 
 @font-face { font-family: Sigilos; src: url('SigilosDoOutroLado-Regular.ttf'); } 
@@ -39,8 +41,9 @@ body {
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    max-width: 520px;
+    max-height: 520px;
+    image-resolution: from-image;
 }
 
 audio {

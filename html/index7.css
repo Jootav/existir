@@ -45,11 +45,11 @@ img {
 
 audio {
     border-radius: 2rem;
-    border: 5px dotted #f5eede;
+    border: 5px dotted #5a1010;
 }
 
 .cont2{
-    background-image: url("../opdi/l/5.png");
+    background-image: url("../opdi/l/7.png");
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
@@ -98,9 +98,9 @@ und:hover span{
 }
 
 @keyframes glow {
-        0% { box-shadow: #e2d9c4 0px 0px 0px; }
-        50% { box-shadow: #e2d9c4 1px 1px 15px; }
-        100% { box-shadow: #e2d9c4 0px 0px 0px; }
+        0% { box-shadow: #5a1010 0px 0px 0px; }
+        50% { box-shadow: #5a1010 1px 1px 15px; }
+        100% { box-shadow: #5a1010 0px 0px 0px; }
 }
 
 @keyframes sigilo {
@@ -110,7 +110,7 @@ und:hover span{
 }
 
 .titulo {
-    background: -webkit-linear-gradient(rgb(29, 29, 28), #e2d9c4);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #5a1010);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -126,7 +126,7 @@ und:hover span{
 .box { 
     background: rgb(8, 8, 8);
     border-radius: 0.5rem;
-    border: 5px solid #e2d9c4;
+    border: 5px solid #5a1010;
     height: 850px;
     
     position: fixed;
@@ -143,14 +143,14 @@ und:hover span{
 }
 
 u {
-    background: -webkit-linear-gradient(rgb(29, 29, 28), #e2d9c4);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #5a1010);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     pointer-events: visible;
 }
 
 u:hover {
-    background: -webkit-linear-gradient(rgb(29, 29, 28), #3f3f3f);
+    background: -webkit-linear-gradient(rgb(29, 29, 28), #d1ad0b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Georgia, 'Times New Roman', Times, serif;
