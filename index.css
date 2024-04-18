@@ -9,6 +9,14 @@ body {
     background-color: #000000;
 }
 
+button {
+    border-radius: 10rem;
+    width: 20px;
+    height: 20px;
+
+    background-color: #e02184;
+}
+
 @font-face { font-family: Sigilos; src: url('SigilosDoOutroLado-Regular.ttf'); } 
 
 .preload {
@@ -41,6 +49,14 @@ body {
 img {
     width: 100%;
     height: 100%;
+}
+
+#fixado {
+    background: rgb(8, 8, 8);
+    border-radius: 0.5rem;
+    border: 5px solid #e02184;
+    display: block;
+    animation: fadeIn 2s ease-in-out, in-out 10s infinite, glow 10s infinite, rodar 10s infinite;
 }
 
 audio {
@@ -87,6 +103,24 @@ und:hover span{
     }
     100%{
         transform: scale(1.00);
+    }
+}
+
+@keyframes rodar {
+    0% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
     }
 }
 
