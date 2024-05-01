@@ -9,6 +9,7 @@ body {
     background-color: #000000;
     background-image: url(../opdi/sustinho.jpg);
     background-size: cover;
+    overflow: hidden;
 }
 
 button {
@@ -148,9 +149,7 @@ und:hover span{
 }
 
 .box { 
-    background: rgb(8, 8, 8);
     border-radius: 0.5rem;
-    border: 5px solid #e02184;
 
     display: flex;
     flex-direction: column;
@@ -158,11 +157,11 @@ und:hover span{
     align-items: center;
     text-align: center;
 
-    margin-left: 37%;
-    margin-right: 37%;
+    margin-left: 27%;
+    margin-right: 27%;
     margin-top: 10%;
     margin-bottom: 10%;
-    animation: fadeIn 2s ease-in-out, in-out 10s infinite, glow 10s infinite;
+    animation: fadeIn 2s ease-in-out, in-out 10s infinite;
 }
 
 u {
