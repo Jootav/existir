@@ -7,9 +7,9 @@
 
 body {
     background-color: #000000;
-    background-image: url(../opdi/sustinho.jpg);
     background-size: cover;
     overflow: hidden;
+    user-select: none;
 }
 
 button {
@@ -67,19 +67,32 @@ audio {
     border: 5px dotted #7639f2;
 }
 
+.cont1 {
+    color: #2e1461;
+    text-align: center;
+}
+
 .cont2 {
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    color: #2e1461;
     text-align: center;
+
 }
 
-.cont2 .quote {
+.cont3 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+
     font-size: 17px;
-    font-family: 'Chivo Mono', monospace;
-    color: #2e1461;
+    font-family: "Pixelify Sans", sans-serif;
+    color: #ffffff;
+
+    animation: fadeIn 60s ease-in-out;
 }
 
 und {
@@ -137,7 +150,6 @@ und:hover span{
         0% { opacity: 100%;}
         100% { opacity: 0%;}
     }
-    
 
 .titulo {
     background: -webkit-linear-gradient(rgb(29, 29, 28), #e02184);
@@ -159,7 +171,7 @@ und:hover span{
 
     margin-left: 27%;
     margin-right: 27%;
-    margin-top: 10%;
+    margin-top: 2%;
     margin-bottom: 10%;
     animation: fadeIn 2s ease-in-out, in-out 10s infinite;
 }
